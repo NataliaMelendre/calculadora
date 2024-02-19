@@ -1,0 +1,103 @@
+body {
+    font-family: Verdana;
+    font-size: 23px;
+    color: #404040;
+    background-color: #145c8b;
+}
+
+#calculadora {
+    margin: 50px auto;
+    height: 250px;
+    padding: 15px;
+    width: 190px;
+    background-color: #3d4543;
+    border: 1px solid #222;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #000;
+}
+
+.visor {
+    margin: 0 0 20px;
+    padding: 3px;
+    background-color: #222;
+    border-radius: 3px;
+}
+
+.visor {
+    display: block;
+    width: 90%;
+    height: 35px;
+    padding: 0 8px;
+    font-family: monospace;
+    color: #444;
+    text-align: right;
+    background-color: #bccd95;
+    border: 1px solid +222;
+    border-radius: 2px;
+    box-shadow: inset 0 2px 3px #000;
+}
+
+.botao, .botao_fun, .botao_op, .botao_res {
+    float: left;
+    padding: 0;
+    margin: 0 0 5px 7px;
+    width: 39px;
+    line-height: 23px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px #000;
+    background-color: #313131;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.botao:hover {
+    background-color: #282828;
+}
+
+.botao:active {
+    background-color: #131313;
+    color: rgb(189, 189, 189);
+}
+
+.botao_op {
+    background-color: rgb(219, 49, 49);
+}
+
+.botao_op:hover {
+    background-color: #b42e2e;
+}
+
+.botao_op:active {
+    background-color: #8a2222;
+    color: rgb(189, 189, 189);
+}
+
+.botao_fun {
+    background-color: rgb(150, 150, 150);
+}
+
+.botao_fun:hover {
+    background-color: #5c5b5b;
+}
+
+.botao_fun:active {
+    background-color: #4d4c4c;
+    color: rgb(189, 189, 189);
+}
+
+.botao_res {
+    background-color: rgb(223, 176, 24);
+}
+
+.botao_res:hover {
+    background-color: rgb(180, 148, 43);
+}
+
+.botao_res:active {
+    background-color: rgb(146, 121, 39);
+    color: rgb(189, 189, 189);
+}
+
